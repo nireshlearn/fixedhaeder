@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+        </script>
+        <link href="fixed.css" type="text/css" rel="stylesheet">
+       
+        <script>
+            $(document).ready(function(){
+                //$("#clickon").on('click',function(){
+                $("#clickon").click(function(){
+                    $("#tableimg").addClass("displaydiv");
+                    $("#hide").addClass("hiddenon");
+                })
+            });
+            
+             $(document).ready(function(){
+        var fix = $("#scroll").offset().top;
+                 
+                 $(window).scroll(function(){
+                     var pos= $(window).scrollTop();
+                   //  $("#status").html(pos);
+                     if(pos >=fix){
+                         $("#tr1st").addClass("fixed");
+                     }
+                     else{
+                         $("#tr1st").removeClass("fixed");
+                     }
+                         
+                 });
+                     
+                 });
+            $(document).ready(function(){
+        var side = $("#tab").offset().top;
+                alert(side);
+                 $(window).scroll(function(){
+                     var sidefix= $(window).scrollTop();
+                     $("#status").html(sidefix);
+                     if(sidefix >=7){
+                         $("#tab").addClass("leftfix");
+                     }
+                     else{
+                         $("#tab").removeClass("leftfix");
+                     }
+                         
+                 });
+                     
+                 });
+        
+        
+            </script>
+    
+       
+       
+    
+    </head>
+    <div class="divmain">
+        
+        <table  class="tablemain">
+            <div id="scroll">
+            <tr id="tr1st" class="tr1st">
+                <td colspan="2" id="header">
+                    
+                    <h1 >SCROLL PAGE</h1>
+                </td>
+            </tr>
+                </div>
+               
+            <tr>
+                
+                <td id="td2nd" class="td2nd">
+                    <div id ="tab" class="tab" >
+  <button class="tablinks">Home</button>
+  <button class="tablinks">SecondTab</button>
+  <button class="tablinks">ThirdTab</button>
+  <button class="tablinks">FourthTab</button>
+  <button class="tablinks">FifthTab</button>
+                    </div>
+                    
+                </td>
+                
+                <td>
+                    <div id="hide" class="hidden">
+                                     You have clicked the image Appeared
+                                </div>
+                <div id="tableimg">
+                    <table>
+                        <td>
+                            <tr>
+                                <td id="clickon">
+                                    <img id="clickon" src="img/img_ecomm2.jpg" style="width:100%;height: 280px;">
+                                    <div id="status">jsjjsjssjjs</div>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="img/img_ecomm2.jpg" style="width:100%;height: 280px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="img/img_ecomm2.jpg" style="width:100%;height: 280px;">
+                                </td>
+                            </tr>
+                        
+                        </td>
+                    </table>
+                    </div>
+                </td>
+               
+            </tr>
+        </table>
+         
+    </div>
+    <div id="footer">
+        jsjsjsjsjjjjjjjjjjjjj
+    </div>
+</html>
