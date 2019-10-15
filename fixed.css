@@ -26,7 +26,7 @@
 .td2nd{
     height:30%;
     width: 20%;
-    padding-bottom: 65%;    
+    padding-bottom: 63.5%;    
 }
 
 
@@ -101,4 +101,26 @@
 {
     /*display: block;*/
     visibility:hidden;
+}
+
+/*Conatiner Image contents*/
+.contain
+{
+    width: 100%;
+
+}
+
+.overlay{
+    position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 2;
+  cursor: pointer;
+    transition: 50s;
 }

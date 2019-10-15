@@ -8,22 +8,208 @@
         <link href="fixed.css" type="text/css" rel="stylesheet">
        
         <script>
+            //CLOSE BUTTON IMAGE
             $(document).ready(function(){
-                //$("#clickon").on('click',function(){
-                $("#clickon").click(function(){
-                    $("#tableimg").addClass("displaydiv");
-                    $("#hide").addClass("hiddenon");
-                })
+                              $("#close").click(function(){
+                $("#overlay").css("display","none");
+                
+            });
+                
+            
+                              });
+            //IMAGE ON CLICK DESCRIPTION 1st image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+               
+                
+                 $("#clickon").click(function(){
+                      $("#overlay").css("display", "block");
+                     x=Details.colour[0];
+                y=Details.Price[0];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
+            });
+            //IMAGE ON CLICK DESCRIPTION 2st image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+               
+                
+                 $("#clickona").click(function(){
+                      $("#overlay").css("display", "block");
+                     $("#disimg").attr('src',"img/2.png");
+                     x=Details.colour[1];
+                y=Details.Price[1];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
+            });
+            //IMAGE ON CLICK DESCRIPTION 3rd image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+               
+                 $("#clickonb").click(function(){
+                      $("#overlay").css("display", "block");
+                     x=Details.colour[2];
+                y=Details.Price[2];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                  });
+            });
+            //IMAGE ON CLICK DESCRIPTION 4st image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+              
+                
+                 $("#clickonc").click(function(){
+                      $("#overlay").css("display", "block");
+                      x=Details.colour[3];
+                y=Details.Price[3];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
+            });
+            //IMAGE ON CLICK DESCRIPTION 5th image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+              
+                
+                 $("#clickond").click(function(){
+                      $("#overlay").css("display", "block");
+                      x=Details.colour[4];
+                y=Details.Price[4];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
             });
             
-             $(document).ready(function(){
-        var fix = $("#scroll").offset().top;
-                 
+            //IMAGE ON CLICK DESCRIPTION 6th image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+              
+                
+                 $("#clickone").click(function(){
+                      $("#overlay").css("display", "block");
+                      x=Details.colour[5];
+                y=Details.Price[5];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
+            });
+            
+            //IMAGE ON CLICK DESCRIPTION 7th image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+              
+                
+                 $("#clickonf").click(function(){
+                      $("#overlay").css("display", "block");
+                      x=Details.colour[6];
+                y=Details.Price[6];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
+            });
+            
+            //IMAGE ON CLICK DESCRIPTION 8th image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+              
+                
+                 $("#clickong").click(function(){
+                      $("#overlay").css("display", "block");
+                      x=Details.colour[7];
+                y=Details.Price[7];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
+            });
+            //IMAGE ON CLICK DESCRIPTION 9th image
+            $(document).ready(function(){
+               var Details,x,y; 
+               Details= { 
+                    "colour":[ "Red","Green","Yellow","LightBlue","DarkBlue","Pink","Brown","Yellow","Balck"],
+                    "Price":["500","600","700","800","500","700","800","900","700"]
+                }
+                
+              
+                
+                 $("#clickonh").click(function(){
+                      $("#overlay").css("display", "block");
+                      x=Details.colour[8];
+                y=Details.Price[8];
+                  
+                $("#name").text(x);
+                $("#price").text(y);
+                       });
+            });
+                //$("#clickon").on('click',function(){
+               
+                    //$("#overlay").addClass("overlayed");
+                   
+                   // $("#tableimg").addClass("displaydiv");
+                   // $("#hide").addClass("hiddenon");
+                
+              
+            
+       //SCROLLING AND STICKY BAR//     
+            $(document).ready(function(){
+                 var fix = $("#scroll").offset().top;
+                
                  $(window).scroll(function(){
                      var pos= $(window).scrollTop();
                    //  $("#status").html(pos);
                      if(pos >=fix){
                          $("#tr1st").addClass("fixed");
+                         //$("td2nd").addClass("tab");
                      }
                      else{
                          $("#tr1st").removeClass("fixed");
@@ -34,7 +220,7 @@
                  });
             $(document).ready(function(){
         var side = $("#tab").offset().top;
-                alert(side);
+                //alert(side);
                  $(window).scroll(function(){
                      var sidefix= $(window).scrollTop();
                      $("#status").html(sidefix);
@@ -63,7 +249,7 @@
             <tr id="tr1st" class="tr1st">
                 <td colspan="2" id="header">
                     
-                    <h1 >SCROLL PAGE</h1>
+                    <h1 >NIPPON PAINTS</h1>
                 </td>
             </tr>
                 </div>
@@ -82,31 +268,105 @@
                 </td>
                 
                 <td>
-                    <div id="hide" class="hidden">
+                  <!--  <div id="hide" class="hidden">
                                      You have clicked the image Appeared
-                                </div>
+                                </div> -->
+                     
                 <div id="tableimg">
-                    <table>
-                        <td>
-                            <tr>
-                                <td id="clickon">
-                                    <img id="clickon" src="img/img_ecomm2.jpg" style="width:100%;height: 280px;">
-                                    <div id="status">jsjjsjssjjs</div>
-                                </td>
+                    <div id="overlay" class="overlay">
+                    <div id="content">
+                        <button id="close" style="align-content: ">X</button>
+                        <table style="margin-top: 15%; margin-left: 30%;">
+                                <tr>
+                                    <td id="overlaycon" >
+                                        
+                                        <table>
+                                            <tr rowspan=3>
+                                                <td id="disimg">
+                                                    <img src="img/1.png" style="width:60%;height: 150px;">
+                                                </td>
+                                                <td>
+                                                    <label id="name" style="color: azure;font-weight:500;align-items: center; ">Name:</label> <br/>
+                                                     <label id="price" style="color: azure;font-weight:500;align-items: center; ">Price:</label>
+                                                    <br/>
+                                                    <label id="Addcart" style="color: azure;font-weight:500;align-items: center; ">Add to Cart</label>
+                                                </td>
+                                                
+                                               
+                                                   
+                                            </tr>
+                                            
+                                        </table>
+                                       
+                                        
+                                        
+                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
                                 
-                            </tr>
+                            </table>
+                        
+                        </div>
+                    
+                    
+                    </div>
+                 
+                    
+                    <table class="contain">
+                        
+                        <tr>
+               
+                                <td >
+                                    <img  src="img/1.png" style="width:100%;height: 280px;">
+                                    <label id="clickon" style="background-color: cadetblue;">Read more...</label>
+                                </td>
+                           <td >
+                                    <img  src="img/2.png" style="width:100%;height: 280px;">
+                                    <label id="clickona" style="background-color: cadetblue;">Read more...</label>
+                                </td>
+                           <td >
+                                    <img src="img/3.png" style="width:100%;height: 280px;">
+                                    <label id="clickonb" style="background-color: cadetblue;">Read more...</label>
+                                </td>
+                           </tr>
+                                
+                            
                             <tr>
                                 <td>
-                                    <img src="img/img_ecomm2.jpg" style="width:100%;height: 280px;">
+                                    <img src="https://picsum.photos/seed/picsum/200/300" style="width:100%;height: 280px;">
+                                    <label id="clickonc" style="background-color: cadetblue;">Read more...</label>
                                 </td>
+                           <td >
+                                    <img  src="img/5.png" style="width:100%;height: 280px;">
+                                    <label id="clickond" style="background-color: cadetblue;">Read more...</label>
+                                </td>
+                                <td >
+                                    <img src="img/6.png" style="width:100%;height: 280px;">
+                                    <label id="clickone" style="background-color: cadetblue;">Read more...</label>
+                                </td>
+                            
                             </tr>
-                            <tr>
+                         <tr>
                                 <td>
-                                    <img src="img/img_ecomm2.jpg" style="width:100%;height: 280px;">
+                                    <img  src="img/7.png" style="width:100%;height: 280px;">
+                                    <label id="clickonf" style="background-color: cadetblue;">Read more...</label>
                                 </td>
+                           <td >
+                                    <img  src="img/8.png" style="width:100%;height: 280px;">
+                                    <label id="clickong" style="background-color: cadetblue;">Read more...</label>
+                                </td>
+                                <td >
+                                    <img src="img/9.png" style="width:100%;height: 280px;">
+                                    <label id="clickonh" style="background-color: cadetblue;">Read more...</label>
+                                </td>
+                            
                             </tr>
                         
-                        </td>
                     </table>
                     </div>
                 </td>
@@ -115,7 +375,5 @@
         </table>
          
     </div>
-    <div id="footer">
-        jsjsjsjsjjjjjjjjjjjjj
-    </div>
+    
 </html>
